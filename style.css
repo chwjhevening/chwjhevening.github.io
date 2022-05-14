@@ -1,0 +1,230 @@
+body {
+  background-color:#000000;
+  max-width:auto;
+  padding:20pt;
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Microsoft Jhenghei",sans-serif;
+}
+
+.c1{line-height:1.6;orphans:2;widows:2;text-align:left}
+.c10{line-height:1.5;orphans:2;widows:2;text-align:center}
+.c2{color:#ffffff;text-decoration:none;vertical-align:baseline;font-style:normal}
+.c6{text-decoration:none;vertical-align:baseline;font-style:normal}
+.c8{text-decoration:underline;text-decoration-skip-ink:auto}
+.underl{text-decoration:underline;text-decoration-skip-ink:none}
+.nodec{text-decoration:none}
+.title{font-size:28px;font-weight:800}
+.bold{font-size:22px;font-weight:800}
+.c0{font-size:22px;font-weight:400}
+.light{font-size:22px;font-weight:300}
+.small{font-size:18px;font-weight:300}
+.gigantic{font-size:54px;font-weight:800}
+
+.mbutton {
+  border-radius:0.33em;
+  padding:0.125em 0.25em 0.125em 0.25em;
+}
+
+.button {
+  border-radius:0.33em;
+  padding:0.16em 0.4em 0.16em 0.4em;
+}
+
+.white{color:#ffffff}
+.gray{color:#666666}
+.ltgray{color:#aaaaaa}
+.black{color:#000000}
+.darkwhite{color:#EFEFEF}
+
+.green{color:#007749}
+.yellow{color:#fedb00}
+.pink{color:#f890a5}
+.ylwgrn{color:#cedc00}
+.holoblue{color:#33b5e5}
+.ltblue{color:#79bce8}
+.orcablue{color:#0084ff}
+.P151C{color:#ff8200}
+.P300C{color:#005eb8}
+.P2348C{color:#e5554f}
+
+.sprite{color:#EFF7EE}
+.king{color:#DDDDDD}
+      
+.S0{color:#E2F6FF}
+.S0U{color:#DDDDDD}
+.S1{color:#E5EFFB}
+.S2A{color:#EDE5FB}
+.S3{color:#F7E5F5}
+.S4{color:#FDE9E8}
+.S5{color:#FDECDA}
+.S6{color:#FDF7DF}
+.S7{color:#EDF3DC}
+.S8A{color:#E1F5F1}
+.S9{color:#EEE5DC}
+.S9W{color:#FAEFE2}
+      
+      .S10{color:#273238}
+      .S11S{color:#145275}
+      .S11{color:#012D6A}
+      .S12C{color:#300066}
+      .S13{color:#67005B}
+      .S14N{color:#822437}
+      .S14S{color:#A04940}
+      .S15{color:#A26401}
+      .S16{color:#AB8900}
+      .S17N{color:#7D8818}
+      .S17S{color:#47752A}
+      .S18{color:#006553}
+      .S19{color:#673301}
+      
+.S20{color:#00ADDC}
+.S21{color:#4179C5}
+.S21A{color:#2070D0}
+.purple{color:#8246af}
+.S22{color:#8246af}
+.S23{color:#D62598}
+.red{color:#e3002d}
+.S24R{color:#e3002d}
+.S24N{color:#FB4166}
+.S24S{color:#FF5722}
+.P137C{color:#ffa400}
+.S25{color:#ffa400}
+.S26{color:#FBD54A}
+.S27{color:#A6D61D}
+.S27S{color:#61D16A}
+.S28{color:#29BCAD}
+.S29{color:#99643A}
+
+      
+      .S30{color:#87D8F1}
+      .S31{color:#AECBFA}
+      .S32{color:#D4B6F6}
+      .S33{color:#F2ABE1}
+      .S34N{color:#FFB4CD}
+      .S34{color:#FDAEAA}
+      .S35{color:#FEC86D}
+      .S36{color:#FCE694}
+      .S37{color:#C9E47C}
+      .S37S{color:#A8E4AC}
+      .S38{color:#97DED5}
+      .S39{color:#F0CBA3}
+      
+      .S40{color:#465A64}
+      .S40C{color:#0A89A9}
+      .S41{color:#0070BC}
+      .S42{color:#7360B7}
+      .S43{color:#BF60B4}
+      .S44N{color:#E9708B}
+      .S44{color:#D45148}
+      .S44S{color:#E66A45}
+      .S45{color:#ED7E24}
+      .S45S{color:#F09702}
+      .S46{color:#F0C318}
+      .S46S{color:#D6C82B}
+      .S47{color:#98B312}
+      .S47S{color:#54A34A}
+      .S48{color:#308167}
+      .S49{color:#705D4B}
+
+.S50U{color:#78909C}
+.S50{color:#4BA3CB}
+.S51{color:#5A85BA}
+.S52A{color:#8C70BC}
+.S53{color:#AE65A5}
+.S54N{color:#D06080}
+.S54{color:#DC6E63}
+.S55V{color:#D9815A}
+.S55{color:#D69450}
+.S56{color:#C3AC4F}
+.S57N{color:#A0AC62}
+.S57L{color:#77A670}
+.S58A{color:#65AC9E}
+.S59A{color:#B88256}
+.S59W{color:#B88D5A}
+.S59{color:#9F8469}
+.S52{color:#7678C0}
+      
+      .bgwhite{background-color:#ffffff}
+      .bgred{background-color:#cb2c30}
+      .bggreen{background-color:#007749}
+      .bgyellow{background-color:#fedb00}
+      .bgbrown{background-color:#9e652e}
+      .bg151C{background-color:#ff8200}
+      .bg300C{background-color:#005eb8}
+ 
+.bgsprite{background-color:#EFF7EE}
+.bgking{background-color:#DDDDDD}
+      
+.bgS0{background-color:#E2F6FF}
+.bgS0U{background-color:#DDDDDD}
+.bgS1{background-color:#E5EFFB}
+.bgS2A{background-color:#EDE5FB}
+.bgS3{background-color:#F7E5F5}
+.bgS4{background-color:#FDE9E8}
+.bgS5{background-color:#FDECDA}
+.bgS6{background-color:#FDF7DF}
+.bgS7{background-color:#EDF3DC}
+.bgS8A{background-color:#E1F5F1}
+.bgS9{background-color:#EEE5DC}
+.bgS9W{background-color:#FAEFE2}
+      
+      .bgS20{background-color:#00ADDC}
+      .bgS21{background-color:#4179C5}
+      .bgS22{background-color:#8246af}
+      .bgS23{background-color:#D62598}
+      .bgS24R{background-color:#e3002d}
+      .bgS24N{background-color:#FB4166}
+      .bgS24S{background-color:#FF5722}
+      .bgS25{background-color:#ffa400}
+      .bgS26{background-color:#FBD54A}
+      .bgS27{background-color:#A6D61D}
+      .bgS27S{background-color:#61D16A}
+      .bgS28{background-color:#29BCAD}
+      .bgS29{background-color:#99643A}
+      
+      .bgS30{background-color:#87D8F1}
+      .bgS31{background-color:#AECBFA}
+      .bgS32{background-color:#D4B6F6}
+      .bgS33{background-color:#F2ABE1}
+      .bgS34N{background-color:#FFB4CD}
+      .bgS34{background-color:#FDAEAA}
+      .bgS35{background-color:#FEC86D}
+      .bgS36{background-color:#FCE694}
+      .bgS37{background-color:#C9E47C}
+      .bgS38{background-color:#97DED5}
+      .bgS39{background-color:#F0CBA3}
+      
+      .bgS40{background-color:#465A64}
+      .bgS40C{background-color:#0A89A9}
+      .bgS41{background-color:#0070BC}
+      .bgS42{background-color:#7360B7}
+      .bgS43{background-color:#BF60B4}
+      .bgS44N{background-color:#E9708B}
+      .bgS44{background-color:#D45148}
+      .bgS44S{background-color:#E66A45}
+      .bgS45{background-color:#ED7E24}
+      .bgS45S{background-color:#F09702}
+      .bgS46{background-color:#F0C318}
+      .bgS46S{background-color:#D6C82B}
+      .bgS47{background-color:#98B312}
+      .bgS47S{background-color:#54A34A}
+      .bgS48{background-color:#308167}
+      .bgS49{background-color:#705D4B}
+
+.bgS50U{background-color:#78909C}
+.bgS50{background-color:#4BA3CB}
+.bgS51{background-color:#5A85BA}
+.bgS52A{background-color:#8C70BC}
+.bgS53{background-color:#AE65A5}
+.bgS54N{background-color:#D06080}
+.bgS54{background-color:#DC6E63}
+.bgS55V{background-color:#D9815A}
+.bgS55{background-color:#D69450}
+.bgS56{background-color:#C3AC4F}
+.bgS57N{background-color:#A0AC62}
+.bgS57L{background-color:#77A670}
+.bgS58A{background-color:#65AC9E}
+.bgS59A{background-color:#B88256}
+.bgS59W{background-color:#B88D5A}
+.bgS59{background-color:#9F8469}
+.bgS52{background-color:#7678C0}
+     

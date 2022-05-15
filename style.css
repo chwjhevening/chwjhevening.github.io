@@ -49,11 +49,6 @@ body {
   padding:0.18em 0.45em 0.18em 0.45em;
   font-size:22px;
   font-weight:800;
-  background-color:#FEC86D;
-  color:#000000;
-}
-
-.visitbutton:hover {
   background-color:#D69450;
   color:#FAEFE2;
 }
@@ -61,10 +56,6 @@ body {
 .visit {
   font-size:22px;
   font-weight:800;
-  color:#000000;
-}
-
-.visit:hover {
   color:#FAEFE2;
 }
 

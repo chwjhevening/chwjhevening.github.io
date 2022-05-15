@@ -20,13 +20,13 @@ body {
 .gigantic{font-size:54px;font-weight:800}
 
 .mbutton {
-  border-radius:0.33em;
+  border-radius:0.375em;
   padding:0.125em 0.25em 0.125em 0.25em;
 }
 
 .button {
   border-radius:0.4em;
-  padding:0.16em 0.4em 0.16em 0.4em;
+  padding:0.16em 0.48em 0.16em 0.48em;
 }
 
 .submitbutton {

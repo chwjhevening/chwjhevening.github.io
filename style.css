@@ -25,7 +25,7 @@ body {
 }
 
 .button {
-  border-radius:0.33em;
+  border-radius:0.4em;
   padding:0.16em 0.4em 0.16em 0.4em;
 }
 
@@ -45,7 +45,7 @@ body {
 }
 
 .visitbutton {
-  border-radius:0.36em;
+  border-radius:0.45em;
   padding:0.18em 0.45em 0.18em 0.45em;
   font-size:22px;
   font-weight:800;
@@ -55,6 +55,16 @@ body {
 
 .visitbutton:hover {
   background-color:#D69450;
+  color:#FAEFE2;
+}
+
+.visit {
+  font-size:22px;
+  font-weight:800;
+  color:#000000;
+}
+
+.visit:hover {
   color:#FAEFE2;
 }
 

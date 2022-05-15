@@ -29,6 +29,35 @@ body {
   padding:0.16em 0.4em 0.16em 0.4em;
 }
 
+.submitbutton {
+  border-radius:0.33em;
+  padding:0.16em 0.4em 0.16em 0.4em;
+  font-size:54px;
+  font-weight:800;
+  text-decoration:none;
+  background-color:#E5EFFB;
+  color:#2070D0;
+}
+
+.submitbutton:hover {
+  background-color:#5A85BA;
+  color:#E5EFFB;
+}
+
+.visitbutton {
+  border-radius:0.36em;
+  padding:0.18em 0.45em 0.18em 0.45em;
+  font-size:22px;
+  font-weight:800;
+  background-color:#FEC86D;
+  color:#000000;
+}
+
+.visitbutton:hover {
+  background-color:#D69450;
+  color:#FAEFE2;
+}
+
 .white{color:#ffffff}
 .gray{color:#666666}
 .ltgray{color:#aaaaaa}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text on Image</title>
+    <style>
+        canvas {
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <input type="text" id="inputText" placeholder="Enter text...">
+    <button onclick="updateText()">Submit</button>
+    <br>
+    <label for="colorPicker">Choose background color: </label>
+    <input type="color" id="colorPicker" value="#000000" onchange="updateBackgroundColor()">
+    <br>
+    <button onclick="downloadImage()">Download Image</button>
+
+    <br><br>
+    <canvas id="canvas" width="300" height="300"></canvas>
+
+    <script>
+        const canvas = document.getElementById('canvas');
+        const ctx = canvas.getContext('2d');
+        const inputText = document.getElementById('inputText');
+        const colorPicker = document.getElementById('colorPicker');
+
+        // Initial draw
+        drawImage();
+
+        function updateText() {
+            drawImage();
+        }
+
+        function updateBackgroundColor() {
+            drawImage();
+        }
+
+        function drawImage() {
+            ctx.fillStyle = colorPicker.value;
+            ctx.fillRect(0, 0, canvas.width, canvas.height);
+
+            ctx.fillStyle = 'white';
+            ctx.font = '24px sans-serif';
+            ctx.textAlign = 'center';
+            ctx.textBaseline = 'middle';
+            ctx.fillText(inputText.value, canvas.width / 2, canvas.height / 2);
+        }
+
+        function downloadImage() {
+            const link = document.createElement('a');
+            link.download = 'image.png';
+            link.href = canvas.toDataURL('image/png');
+            link.click();
+        }
+    </script>
+</body>
+</html>

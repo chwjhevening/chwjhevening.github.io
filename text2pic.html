@@ -15,18 +15,24 @@
     <button onclick="updateText()">Submit</button>
     <br>
     <label for="colorPicker">Choose background color: </label>
-    <input type="color" id="colorPicker" value="#E5EFFB" onchange="updateBackgroundColor()">
+    <input type="color" id="colorPicker" value="#000000" onchange="updateBackgroundColor()">
+    <br>
+    <label for="fontSizeSlider">Adjust font size: </label>
+    <input type="range" id="fontSizeSlider" min="10" max="50" value="24" onchange="updateFontSize()">
     <br>
     <button onclick="downloadImage()">Download Image</button>
 
     <br><br>
-    <canvas id="canvas" width="1080" height="1080"></canvas>
+    <canvas id="canvas" width="300" height="300"></canvas>
 
     <script>
         const canvas = document.getElementById('canvas');
         const ctx = canvas.getContext('2d');
         const inputText = document.getElementById('inputText');
         const colorPicker = document.getElementById('colorPicker');
+        const fontSizeSlider = document.getElementById('fontSizeSlider');
+
+        let fontSize = fontSizeSlider.value;
 
         // Initial draw
         drawImage();
@@ -39,16 +45,56 @@
             drawImage();
         }
 
+        function updateFontSize() {
+            fontSize = fontSizeSlider.value;
+            drawImage();
+        }
+
         function drawImage() {
+            const padding = 0.05 * canvas.width;
             ctx.fillStyle = colorPicker.value;
             ctx.fillRect(0, 0, canvas.width, canvas.height);
 
             ctx.fillStyle = 'white';
-            ctx.font = '24px sans-serif';
+            ctx.font = `${fontSize}px sans-serif`;
             ctx.textAlign = 'center';
             ctx.textBaseline = 'middle';
-            ctx.fillText(inputText.value, canvas.width / 2, canvas.height / 2);
+            const lineHeight = parseInt(fontSize) + 4;
+            const lines = wrapText(inputText.value, canvas.width - 2 * padding);
+            const yOffset = (canvas.height - lines.length * lineHeight) / 2;
+
+            ctx.save();
+            ctx.beginPath();
+            ctx.rect(padding, padding, canvas.width - 2 * padding, canvas.height - 2 * padding);
+            ctx.clip();
+
+            for (let i = 0; i < lines.length; i++) {
+                ctx.fillText(lines[i], canvas.width / 2, yOffset + i * lineHeight);
+            }
+            ctx.restore();
         }
+
+        function wrapText(text, maxWidth) {
+    const chars = text.split('');
+    const lines = [];
+    let currentLine = chars[0];
+
+    for (let i = 1; i < chars.length; i++) {
+        const char = chars[i];
+        const width = ctx.measureText(currentLine + char).width;
+
+        if (width < maxWidth) {
+            currentLine += char;
+        } else {
+            lines.push(currentLine);
+            currentLine = char;
+        }
+    }
+
+    lines.push(currentLine);
+    return lines;
+}
+
 
         function downloadImage() {
             const link = document.createElement('a');

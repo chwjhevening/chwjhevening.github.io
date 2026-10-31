@@ -97,12 +97,15 @@ body {
 .S0U{color:#DDDDDD}
 .S1{color:#E5EFFB}
 .S2A{color:#EDE5FB}
+.S2E{color:#EDE9FB}
 .S3{color:#F7E5F5}
 .S4{color:#FDE9E8}
 .S5{color:#FDECDA}
 .S6{color:#FDF7DF}
+.S6D{color:#FDF6DA}
 .S7{color:#EDF3DC}
 .S8A{color:#E1F5F1}
+.S8C{color:#DFF3EF}
 .S9{color:#EEE5DC}
 .S9W{color:#FAEFE2}
       
@@ -182,11 +185,25 @@ body {
 .S57N{color:#A0AC62}
 .S57L{color:#77A670}
 .S58A{color:#65AC9E}
-.S59A{color:#B88256}
 .S59W{color:#B88D5A}
 .S59{color:#9F8469}
 .S52{color:#7678C0}
-      
+
+.S60{color:#A2C4C9}
+.S61{color:#A2C0E3}
+.S62{color:#BEB3DB}
+.S63{color:#D6ACCA}
+.S64{color:#ECABA7}
+.S65{color:#F1C38A}
+.S66{color:#EAD9A0}
+.S67{color:#CCD7A8}
+.S68{color:#A3CFC0}
+.S69{color:#E1C4A8}
+.S64N{color:#E6AABB}
+.S65V{color:#F1B496}
+.S67L{color:#B6D4B2}
+.S60C{color:#97CBD6}
+
       .bgwhite{background-color:#ffffff}
       .bgred{background-color:#cb2c30}
       .bggreen{background-color:#007749}
@@ -202,15 +219,32 @@ body {
 .bgS0U{background-color:#DDDDDD}
 .bgS1{background-color:#E5EFFB}
 .bgS2A{background-color:#EDE5FB}
+.bgS2E{background-color:#EDE9FB}
 .bgS3{background-color:#F7E5F5}
 .bgS4{background-color:#FDE9E8}
 .bgS5{background-color:#FDECDA}
 .bgS6{background-color:#FDF7DF}
+.bgS6D{background-color:#FDF6DA}
 .bgS7{background-color:#EDF3DC}
 .bgS8A{background-color:#E1F5F1}
+.bgS8C{background-color:#DFF3EF}
 .bgS9{background-color:#EEE5DC}
 .bgS9W{background-color:#FAEFE2}
-      
+
+      .bgS10{background-color:#273238}
+      .bgS11S{background-color:#145275}
+      .bgS11{background-color:#012D6A}
+      .bgS12C{background-color:#300066}
+      .bgS13{background-color:#67005B}
+      .bgS14N{background-color:#822437}
+      .bgS14S{background-color:#A04940}
+      .bgS15{background-color:#A26401}
+      .bgS16{background-color:#AB8900}
+      .bgS17N{background-color:#7D8818}
+      .bgS17S{background-color:#47752A}
+      .bgS18{background-color:#006553}
+      .bgS19{background-color:#673301}
+
       .bgS20{background-color:#00ADDC}
       .bgS21{background-color:#4179C5}
       .bgS22{background-color:#8246af}
@@ -271,4 +305,19 @@ body {
 .bgS59W{background-color:#B88D5A}
 .bgS59{background-color:#9F8469}
 .bgS52{background-color:#7678C0}
+
+.bgS60{background-color:#A2C4C9}
+.bgS61{background-color:#A2C0E3}
+.bgS62{background-color:#BEB3DB}
+.bgS63{background-color:#D6ACCA}
+.bgS64{background-color:#ECABA7}
+.bgS65{background-color:#F1C38A}
+.bgS66{background-color:#EAD9A0}
+.bgS67{background-color:#CCD7A8}
+.bgS68{background-color:#A3CFC0}
+.bgS69{background-olor:#E1C4A8}
+.bgS64N{background-color:#E6AABB}
+.bgS65V{background-color:#F1B496}
+.bgS67L{background-color:#B6D4B2}
+.bgS60C{background-color:#97CBD6}
      

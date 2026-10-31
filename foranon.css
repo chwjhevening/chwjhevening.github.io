@@ -39,8 +39,8 @@
 .S33{color:#F2ABE1}
 .S34N{color:#FFB4CD}
 .S34{color:#FDAEAA}
-.S35{color:#FEC86D}
 .S35V{color:#FEBA98}
+.S35{color:#FEC86D}
 .S36{color:#FCE694}
 .S37{color:#C9E47C}
 .S37S{color:#A8E4AC}
@@ -67,7 +67,6 @@
 /*2鮮色*/
 /*文字顏色要是#FFFFFF，除了S25、S26、S27、S27S文字顏色是#000000*/
 .S20{color:#00ADDC}
-.S21{color:#4179C5}
 .S21A{color:#2070D0}
 .S22{color:#8246af}
 .S23{color:#D62598}
@@ -98,7 +97,6 @@
 
 /*1深色*/
 /*文字顏色要是#F2F2F2*/
-.S10{color:#273238}
 .S10C{color:#145275}
 .S11{color:#012D6A}
 .S12C{color:#300066}
@@ -111,5 +109,6 @@
 .S17S{color:#47752A}
 .S18{color:#006553}
 .S19{color:#673301}
+.S10{color:#273238}
 
 /*文字顏色是#FFFFFF者，必須加上深灰色陰影*/

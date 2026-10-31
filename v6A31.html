@@ -9,36 +9,6 @@
   </head>
   
   <body>
-    <!-- Messenger 洽談外掛程式 Code -->
-    <div id="fb-root"></div>
-
-    <!-- Your 洽談外掛程式 code -->
-    <div id="fb-customer-chat" class="fb-customerchat">
-    </div>
-
-    <script>
-      var chatbox = document.getElementById('fb-customer-chat');
-      chatbox.setAttribute("page_id", "639940846180755");
-      chatbox.setAttribute("attribution", "biz_inbox");
-    </script>
-
-    <!-- Your SDK code -->
-    <script>
-      window.fbAsyncInit = function() {
-        FB.init({
-          xfbml            : true,
-          version          : 'v14.0'
-        });
-      };
-
-      (function(d, s, id) {
-        var js, fjs = d.getElementsByTagName(s)[0];
-        if (d.getElementById(id)) return;
-        js = d.createElement(s); js.id = id;
-        js.src = 'https://connect.facebook.net/zh_TW/sdk/xfbml.customerchat.js';
-        fjs.parentNode.insertBefore(js, fjs);
-      }(document, 'script', 'facebook-jssdk'));
-    </script>
     <div class="c1">
       <p class="c2 c0">
         <span class="titlebutton bgS25 black">
@@ -58,10 +28,10 @@
         <span class="c0">
           🍬一、文長至少10字元或5個中文字或附1張圖<br>
         </span>
-        <span class="small S37">&emsp;&emsp;&emsp;&emsp;（簽名檔不計；附圖請轉正、加工成正方形、不含臉）<br></span>
+        <span class="small">&emsp;&emsp;&emsp;&emsp;（簽名檔不計；附圖請轉正、加工成正方形、不含臉）<br></span>
         <span class="c0">
           🍬二、投稿關於金華國中的人事物<br>
-          🍬💬三、遵循社會規範<span class="small">[a]</span>，不西斯約炮、不公開<span class="S37">隱私或個資</span><br>
+          🍬💬三、遵循社會規範<span class="small">[a]</span>，不西斯約炮、不公開隱私或個資<br>
           🍬💬四、不洗板、不重複投稿<br>
           🍬💬五、請勿挑釁或人身攻擊，文字不過激<br>
           🍬💬六、廣告宣傳需黑金同意（校內活動除外，例如校慶）<br>
